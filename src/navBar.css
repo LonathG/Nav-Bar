@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav-container {
+    display: flex;
+    position: absolute;
+    background-color: #744ecd;
+    height: 90%;
+    margin-top: 2.5%;
+    border-radius: 40px;
+    margin-left: 1%;
+    width: 5%;
+    flex-direction: column;
+    justify-content: space-evenly; /* Align items vertically center */
+    align-items: center; /* Align items horizontally center */
+}
+
+.icon {
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: center; /* Align icon content horizontally center */
+    align-items: center; /* Align icon content vertically center */
+    width: 60%;
+    height: auto; /* Adjust the height of each button */
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px; /* Increase font size */
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.icon:hover {
+    background-color: #5d3da7;
+    transition: .5s;
+}

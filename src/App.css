@@ -1,0 +1,22 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.Admin-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px; 
+    border: 1px solid #dee2e6; /* Light border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a nice effect */
+    max-width: 800px; /* Set a maximum width for the box */
+    position: absolute;
+    height: 85%;
+    margin-top: 2.5%;
+    border-radius: 40px;
+    margin-left: 7%;
+    width:100%;
+  }
+  
+  
